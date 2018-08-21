@@ -15,7 +15,7 @@
           "name" : "view1",
           "uuid" : "E9A1E196-D99A-4950-8E93-89AF3D945066"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
@@ -46,25 +46,26 @@
         "attributes" : {
           "flex" : "WLR",
           "font_size" : 100,
+          "text_color" : "RGBA(1.000000,1.083333,1.062500,1.000000)",
           "frame" : "{{135, 107}, {150, 32}}",
           "uuid" : "0589771D-88F6-4116-AE87-8C9FC53B77C9",
           "class" : "Label",
           "alignment" : "center",
-          "text" : "",
+          "text" : "0",
           "name" : "score",
           "font_name" : "Arial-BoldMT"
         },
-        "selected" : false
+        "selected" : true
       }
     ],
     "frame" : "{{0, 0}, {1024, 768}}",
     "class" : "View",
     "attributes" : {
-      "name" : "",
-      "enabled" : true,
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
       "flex" : ""
     },
     "selected" : false

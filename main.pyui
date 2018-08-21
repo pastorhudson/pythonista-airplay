@@ -5,17 +5,14 @@
         "nodes" : [
 
         ],
-        "frame" : "{{42, 25}, {150, 32}}",
-        "class" : "Label",
+        "frame" : "{{0, 0}, {240, 240}}",
+        "class" : "View",
         "attributes" : {
-          "name" : "label1",
-          "frame" : "{{45, 104}, {150, 32}}",
-          "uuid" : "9891B579-04EF-40BB-9F31-C42DE81355A9",
-          "class" : "Label",
-          "alignment" : "center",
-          "text" : "Score Keeper",
-          "font_size" : 18,
-          "font_name" : "<System>"
+          "frame" : "{{70, 70}, {100, 100}}",
+          "background_color" : "RGBA(0.443137,0.745098,0.643137,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "D7D85BFE-3C11-493F-9D44-9C1EBB48B1E0"
         },
         "selected" : false
       },
@@ -23,16 +20,41 @@
         "nodes" : [
 
         ],
-        "frame" : "{{131, 100}, {80, 32}}",
+        "frame" : "{{17, 0}, {217, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 24,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "9891B579-04EF-40BB-9F31-C42DE81355A9",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Score Keeper",
+          "name" : "label1",
+          "font_name" : "Arial-BoldMT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{26, 128}, {80, 80}}",
         "class" : "Button",
         "attributes" : {
-          "action" : "score_down",
-          "frame" : "{{80, 104}, {80, 32}}",
-          "title" : "-",
           "uuid" : "EACB48AF-B99A-4ACE-B62C-68D8C8B01EB7",
-          "class" : "Button",
-          "font_bold" : true,
           "name" : "button1",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.443137,0.745098,0.643137,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 0,
+          "tint_color" : "RGBA(1.000000,1.052083,1.031250,1.000000)",
+          "title" : "-",
+          "action" : "score_down",
+          "font_bold" : true,
+          "class" : "Button",
+          "image_name" : "iob:ios7_minus_256",
           "font_size" : 38
         },
         "selected" : false
@@ -41,16 +63,22 @@
         "nodes" : [
 
         ],
-        "frame" : "{{25, 100}, {80, 32}}",
+        "frame" : "{{138, 128}, {80, 80}}",
         "class" : "Button",
         "attributes" : {
-          "action" : "score_up",
-          "frame" : "{{80, 104}, {80, 32}}",
-          "title" : "+",
           "uuid" : "A317ED7A-6E29-42FC-AB2E-5DCC17345271",
+          "name" : "button2",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.443137,0.745098,0.643137,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.219608,0.478431,1.000000,1.000000)",
+          "border_width" : 0,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "+",
+          "action" : "score_up",
           "font_bold" : true,
           "class" : "Button",
-          "name" : "button2",
+          "image_name" : "iob:ios7_plus_256",
           "font_size" : 39
         },
         "selected" : false
@@ -59,20 +87,21 @@
         "nodes" : [
 
         ],
-        "frame" : "{{42, 60}, {150, 32}}",
+        "frame" : "{{47, 50}, {150, 42}}",
         "class" : "Label",
         "attributes" : {
-          "font_size" : 18,
           "flex" : "WLRB",
+          "name" : "score",
+          "text_color" : "RGBA(1.000000,1.031250,1.031250,1.000000)",
           "frame" : "{{45, 104}, {150, 32}}",
           "uuid" : "F1992BE6-5ACC-49AC-BE92-2E621269BDA8",
           "class" : "Label",
-          "alignment" : "left",
-          "text" : "",
-          "name" : "score",
+          "alignment" : "center",
+          "text" : "0",
+          "font_size" : 46,
           "font_name" : "<System>"
         },
-        "selected" : true
+        "selected" : false
       }
     ],
     "frame" : "{{0, 0}, {240, 240}}",
