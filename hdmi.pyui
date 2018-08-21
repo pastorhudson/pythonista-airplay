@@ -1,0 +1,72 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {1024, 768}}",
+        "class" : "View",
+        "attributes" : {
+          "flex" : "WH",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "background_color" : "RGBA(0.442512,0.745283,0.644359,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "E9A1E196-D99A-4950-8E93-89AF3D945066"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 59}, {1024, 119}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "4A2E2993-D4F8-480C-A083-4A390D230C76",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Score Keeper",
+          "font_size" : 100,
+          "font_name" : "Arial-BoldMT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{289, 359}, {440, 116}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLR",
+          "font_size" : 100,
+          "frame" : "{{135, 107}, {150, 32}}",
+          "uuid" : "0589771D-88F6-4116-AE87-8C9FC53B77C9",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "score",
+          "font_name" : "Arial-BoldMT"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

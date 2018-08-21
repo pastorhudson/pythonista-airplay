@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{42, 25}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "9891B579-04EF-40BB-9F31-C42DE81355A9",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Score Keeper",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 100}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "scoreDown",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "-",
+          "uuid" : "EACB48AF-B99A-4ACE-B62C-68D8C8B01EB7",
+          "class" : "Button",
+          "font_bold" : true,
+          "name" : "button1",
+          "font_size" : 38
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{25, 100}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "scoreUp",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "+",
+          "uuid" : "A317ED7A-6E29-42FC-AB2E-5DCC17345271",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button2",
+          "font_size" : 39
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{42, 60}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "flex" : "WLRB",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "F1992BE6-5ACC-49AC-BE92-2E621269BDA8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "score",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {240, 240}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
