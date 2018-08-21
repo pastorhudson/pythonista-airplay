@@ -26,7 +26,7 @@
         "frame" : "{{131, 100}, {80, 32}}",
         "class" : "Button",
         "attributes" : {
-          "action" : "scoreDown",
+          "action" : "score_down",
           "frame" : "{{80, 104}, {80, 32}}",
           "title" : "-",
           "uuid" : "EACB48AF-B99A-4ACE-B62C-68D8C8B01EB7",
@@ -44,7 +44,7 @@
         "frame" : "{{25, 100}, {80, 32}}",
         "class" : "Button",
         "attributes" : {
-          "action" : "scoreUp",
+          "action" : "score_up",
           "frame" : "{{80, 104}, {80, 32}}",
           "title" : "+",
           "uuid" : "A317ED7A-6E29-42FC-AB2E-5DCC17345271",
